@@ -4,7 +4,7 @@ import logging
 from pyrogram import Client as bot
 from pyrogram import filters
 
-@bot.on_message(filters.command(["start"]) & filters.private, group=1)
+@bot.on_message(filters.command(["info"]) & filters.private, group=1)
 async def start(bot, update):
     await update.reply_photo(
         photo="https://telegra.ph/file/860cc0afcf63e109bda07.jpg",
