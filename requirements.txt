@@ -1,3 +1,7 @@
 telethon
 cryptg
 asyncio
+Pyrogram
+TgCrypto
+aiohttp
+Dnspython
